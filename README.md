@@ -18,7 +18,11 @@ Thinking of following the `github-flow` model for releases.
 # create issue
 git branch --list
 git branch -d update2v0p2
-# merge branch
+git add .
+git commit -m 'update version to 0.2'
+git push --set-upstream origin update2v0p2
+gh pr create
+merge branch
 git pull
 
 gh auth login
