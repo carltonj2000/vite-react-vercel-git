@@ -3,3 +3,11 @@
 Thinking of following the `github-flow` model for releases.
 
 - https://docs.github.com/en/get-started/using-github/github-flow
+
+## History
+
+1 - Created a vite project - a react website
+2 - Customized and simplified the website content
+3 - Create a git repo, commit and pushed to github
+4 - Create a branch and add a feature or fix bug/documentation/etc
+5 - Commit the branch, push to github and submit pull request.
