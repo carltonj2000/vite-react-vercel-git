@@ -4,7 +4,7 @@ function App() {
   return (
     <>
       <h1>Hi</h1>
-      <p>Version 0.2</p>
+      <p>Version 0.3</p>
     </>
   );
 }
