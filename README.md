@@ -47,8 +47,6 @@ git commit -m 'update version to 0.4'
 git push --set-upstream origin update2v0p2
 # create pull request for the present changes
 gh pr create --title "update version to 0.4" --body "for issue #5"
-# merge pull request into the main branch and delete goal branches
-gh pr merge --title "update version to 0.4" --body "closed #6"
-# close issue associate with the goal/feature pull request
-gh issue close 5 -c 'close #5'
+# merge pull request into the main branch, delete goal branches, close issue
+gh pr merge --title "update version to 0.4" --body "closed #5"
 ```
